@@ -36,6 +36,7 @@ nav {
 	padding: 10px 60px !important;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 nav h3 {
@@ -44,4 +45,12 @@ nav h3 {
 
 .content {
 	padding: 10px 60px !important;
+}
+.links ul {
+	display: flex;
+	gap: 10px;
+}
+li {
+	list-style: none;
+	color: white;
 }
