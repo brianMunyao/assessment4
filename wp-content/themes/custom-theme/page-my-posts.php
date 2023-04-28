@@ -22,15 +22,13 @@
         while ($blogs->have_posts()) : $blogs->the_post(); ?>
 
             <?php
-            // the_title();
-            // the_content();
-
-            get_template_part('content', get_post_format())
+            get_template_part('content', get_post_format());
             ?>
             <div><?php previous_posts_link();
                     ?></div>
             <div><?php next_posts_link();
                     ?></div>
+
 
 
 
@@ -43,8 +41,7 @@
     <?php
     endif;
 
-    // previous_posts_link('&laquo; Newer posts');
-    // next_posts_link('Older posts &raquo;');
+
     ?>
 
 
